@@ -1,9 +1,8 @@
-# thadacha 1 ////////////////
+# thadacha 2 ////////////////
 
 
 a=int(input())
-b=int(input())
-if a>b:
-    print(a)
+if a%4==0 and (a%100!=0 or a%400==0):
+    print('yes')
 else:
-    print(b)
+    print('no')
