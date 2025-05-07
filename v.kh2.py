@@ -1,12 +1,11 @@
-# thadacha 5 ////////////////
+# thadacha 6 ////////////////
 
 
-a=int(input())
-b=int(input())
-c=int(input())
-if a>b and a>c :
-    print(a)
-elif b>a and b>c:
-    print(b)
+x1=int(input())
+x2=int(input())
+y1=int(input())
+y2=int(input())
+if x1 == x2 or y1 == y2 :
+    print("yes")
 else:
-    print(c)
+    print('no')
