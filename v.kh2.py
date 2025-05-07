@@ -1,11 +1,12 @@
-# thadacha 4 ////////////////
+# thadacha 5 ////////////////
 
 
 a=int(input())
 b=int(input())
-if a>b :
-    print(1)
-elif a<b:
-    print(2)
+c=int(input())
+if a>b and a>c :
+    print(a)
+elif b>a and b>c:
+    print(b)
 else:
-    print(0)
+    print(c)
