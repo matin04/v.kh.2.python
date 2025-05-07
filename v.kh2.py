@@ -1,8 +1,10 @@
-# thadacha 2 ////////////////
+# thadacha 3 ////////////////
 
 
-a=int(input())
-if a%4==0 and (a%100!=0 or a%400==0):
-    print('yes')
+x=int(input())
+if x>1 :
+    print(1)
+elif x<0:
+    print(-1)
 else:
-    print('no')
+    print(0)
